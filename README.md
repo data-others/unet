@@ -1,6 +1,6 @@
 # UNet Models for Image Segmentation
  
-<img src="https://github.com/frankyeh/UNet-Studio-Website/assets/275569/163820f1-bfe5-4fba-8d5f-dc3bcf2e910f" width="400"/>
+<img src="https://github.com/frankyeh/UNet-Studio-Website/assets/275569/163820f1-bfe5-4fba-8d5f-dc3bcf2e910f" width="600"/>
 
 ## Introduction
 
@@ -10,7 +10,8 @@ The models can be used by [DSI Studio](https://dsi-studio.labsolver.org) and [UN
 
 ## Output
 
-<img src="images/examples3.png" width="300"/>
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/124bb2c5-dcb3-40b7-afa6-558c30bab515" />
+
 
 U-Net Studio can output 3D labels or 4D probablistic maps for quantifying tissue characteristics. The tissue segmentation includes white matter, gray matter (excluding basal ganglion), basal ganglion, and others.
 
