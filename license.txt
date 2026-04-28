@@ -1,0 +1,8 @@
+**UNet-Studio Models**
+
+The UNet-Studio models shared in this repository are distributed under the same license as DSI Studio: **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+Some models may come with their own license agreements. Please check the `*.license.txt` file associated with each model’s file name for the applicable terms.
+
+For details on the DSI Studio license, please see:
+[https://github.com/frankyeh/DSI-Studio?tab=License-1-ov-file#readme](https://github.com/frankyeh/DSI-Studio?tab=License-1-ov-file#readme)
