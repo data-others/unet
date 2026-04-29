@@ -1,0 +1,44 @@
+TumorSynth model notice for DSI Studio
+
+This file documents the origin and license status of the TumorSynth model weights converted for use in DSI Studio.
+
+Original project:
+TumorSynth / mri_TumorSynth
+https://github.com/fprados/TumorSynth
+https://surfer.nmr.mgh.harvard.edu/fswiki/TumorSynth
+
+Original license:
+TumorSynth Software License Agreement, Version 1.0 (Adapted)
+https://github.com/fprados/TumorSynth/blob/main/LICENSE.txt
+
+Required redistribution statement:
+All or portions of this licensed product (the "Software") have been obtained under license from University College London (UCL) and are subject to the following terms and conditions.
+
+Converted model:
+The model weights included with DSI Studio were converted from TumorSynth model weights into DSI Studio's compressed .nz format. The conversion changes the storage format for compatibility with DSI Studio and does not imply that the converted model is an original DSI Studio model.
+
+Attribution:
+TumorSynth is maintained by University College London (UCL). Copyright, attribution, and ownership notices from the original TumorSynth project should be preserved.
+
+Redistribution requirements:
+If redistributing the converted model, include the TumorSynth license text with the distribution. Preserve copyright notices and attributions. Clearly mark the .nz file as a modified or converted version of the original TumorSynth model weights, and do not misrepresent it as the original model file.
+
+Third-party software:
+The TumorSynth license does not grant rights to third-party software. DSI Studio distribution should not imply that third-party dependencies, external software, or data used by TumorSynth are redistributed under this notice unless their licenses separately allow it.
+
+Use limitation and disclaimer:
+The TumorSynth license states that the software is intended for research purposes only, has not been reviewed or approved by regulatory bodies, and that clinical applications are not recommended. The software is provided as is, without warranty. Any commercialization is at the user's own risk and must comply with applicable laws and regulations.
+
+No endorsement:
+The names, logos, or trademarks of UCL or contributors may not be used to suggest endorsement without prior written permission.
+
+Suggested citation:
+Please cite the TumorSynth publication when using this model:
+Wu J, Prados Carrasco F, et al. TumorSynth: Integrated Brain Tumor and Tissue Segmentation on Brain MRI Scans of Any Resolution and Contrast. Radiology: Imaging Cancer, 2026.
+
+Suggested DSI Studio description:
+This plugin uses TumorSynth model weights converted to DSI Studio .nz format. The original TumorSynth project and model weights are distributed under the TumorSynth Software License Agreement. The converted file is provided for research use in DSI Studio and is not intended to imply endorsement by the TumorSynth authors or UCL.
+
+Recommended file placement:
+Place this file next to the converted .nz model file, and also include a copy of the original TumorSynth LICENSE.txt from:
+https://github.com/fprados/TumorSynth/blob/main/LICENSE.txt
