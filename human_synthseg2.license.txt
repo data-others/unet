@@ -1,0 +1,5 @@
+SynthSeg License
+
+SynthSeg’s code is under Apache 2.0 licensing: https://github.com/BBillot/SynthSeg/blob/master/LICENSE.txt
+
+This model included was converted from SynthSeg 2.0 weights to DSI Studio .nz format. The conversion changes the storage format but not the intended model parameters.
