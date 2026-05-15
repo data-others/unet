@@ -15,3 +15,11 @@ The models can be used by [DSI Studio](https://dsi-studio.labsolver.org) and [UN
 
 U-Net Studio can output 3D labels or 4D probablistic maps for quantifying tissue characteristics. The tissue segmentation includes white matter, gray matter (excluding basal ganglion), basal ganglion, and others.
 
+
+
+## Converted models
+
+
+1. [TumorSynth](https://github.com/data-others/unet/releases/download/tumor/human_tumorsynth.nz)
+2. [Synthseg V2]()
+3. [SIAM]()
