@@ -51,7 +51,7 @@ The models are provided as is, without warranty of any kind, and are intended fo
 
 | Model | Description | Download |
 |---|---|---|
-| TumorSynth | Converted TumorSynth model for brain tumor and tissue segmentation | [human_tumorsynth.nz](https://github.com/data-others/unet/releases/download/tumor/human_tumorsynth.nz) |
+| TumorSynth | Converted TumorSynth model for brain tumor and tissue segmentation | [human_tumorsynth.nz](https://github.com/data-others/unet/releases/download/tumorsynth/human_tumorsynth.nz) |
 | SynthSeg V2 | Converted SynthSeg 2.0 model for brain segmentation | [human_synthseg2.nz](https://github.com/data-others/unet/releases/download/synthseg/human_synthseg2.nz) |
 | SIAM Model 1 | Converted SIAM model | [human_SIAM_model1.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model1.nz) |
 | SIAM Model 2 | Converted SIAM model | [human_SIAM_model2.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model2.nz) |
