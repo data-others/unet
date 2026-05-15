@@ -1,0 +1,54 @@
+GOUHFI model notice for DSI Studio
+
+GitHub: https://github.com/mafortin/GOUHFI
+Original License: Apache License 2.0
+DSI Studio redistributed model license: DSI Studio License
+
+This file documents the origin and license status of the GOUHFI model weights converted and compressed for use in DSI Studio.
+
+Original project:
+GOUHFI
+https://github.com/mafortin/GOUHFI
+
+Original license:
+Apache License, Version 2.0
+https://github.com/mafortin/GOUHFI/blob/main/LICENSE
+https://www.apache.org/licenses/LICENSE-2.0
+
+Converted and compressed model:
+The model weights included with DSI Studio were converted from the GOUHFI project into DSI Studio's compressed .nz format. The conversion may include changes in file format, compression method, metadata, and runtime packaging for compatibility with DSI Studio.
+
+The converted .nz file is a derived work based on the original GOUHFI model weights. It does not imply that the converted model is an original DSI Studio model, nor does it remove or replace the rights, permissions, attribution requirements, patent terms, trademark terms, or disclaimers of the original Apache License 2.0.
+
+DSI Studio license for the redistributed .nz file:
+The redistributed .nz file is a DSI Studio-specific converted and compressed package. Redistribution, copying, modification, or further distribution of this .nz file as packaged by DSI Studio is subject to the DSI Studio License, to the extent permitted by the Apache License 2.0 and applicable law.
+
+The DSI Studio License applies to the converted .nz file, including its DSI Studio-specific compression, storage format, metadata, packaging, and redistribution format.
+
+The original GOUHFI-derived material remains subject to the Apache License 2.0. Nothing in the DSI Studio License removes, replaces, or limits the rights and obligations provided by the Apache License 2.0 for the original GOUHFI-derived material.
+
+Users receiving this converted .nz file must comply with both:
+1. The Apache License 2.0 terms for the original GOUHFI-derived material.
+2. The DSI Studio License terms for the redistributed DSI Studio .nz package.
+
+Attribution:
+GOUHFI was developed by the GOUHFI authors and contributors. Copyright, attribution, patent, trademark, and ownership notices from the original GOUHFI project should be preserved.
+
+Redistribution requirements:
+If redistributing the converted .nz model file, include this notice, the Apache License 2.0 text, and the DSI Studio License. Preserve copyright notices and attributions. Clearly mark the .nz file as a modified, compressed, and converted version of the original GOUHFI model weights, and do not misrepresent it as the original model file.
+
+If the original GOUHFI distribution includes a NOTICE file or other required attribution notice, include the required notice with the redistributed .nz file as required by the Apache License 2.0.
+
+Third-party software:
+This notice does not grant rights to third-party software, datasets, dependencies, or external materials that may be used by the original GOUHFI project unless their licenses separately allow it. DSI Studio distribution should not imply that such third-party materials are redistributed under this notice.
+
+Use limitation and disclaimer:
+The original GOUHFI project is provided under the Apache License 2.0 on an "AS IS" basis, without warranties or conditions of any kind. The converted DSI Studio .nz model is also provided as is, without warranty of any kind.
+
+DSI Studio does not make any claim that the converted model is suitable for clinical diagnosis, treatment planning, regulatory use, or commercial deployment unless such use is separately permitted by the applicable licenses and laws.
+
+No endorsement:
+The names, logos, trademarks, service marks, or product names of GOUHFI, its authors, contributors, or affiliated institutions may not be used to suggest endorsement of DSI Studio or the converted model without prior written permission, except as required for reasonable attribution.
+
+Suggested citation:
+Please cite or acknowledge the GOUHFI project when using this model in academic work.
