@@ -38,6 +38,7 @@ Converted third-party models include:
 | TumorSynth | https://github.com/fprados/TumorSynth | TumorSynth Software License Agreement |
 | SynthSeg V2 | https://github.com/BBillot/SynthSeg | Apache License 2.0 |
 | SIAM Models | https://github.com/romainVala/SIAM | Apache License 2.0 |
+| GOUHFI | https://github.com/mafortin/GOUHFI | Apache License 2.0 |
 
 Redistribution of converted models should include the model-specific license notice, the original license text, the DSI Studio License, and attribution to the original project.
 
@@ -51,37 +52,38 @@ The models are provided as is, without warranty of any kind, and are intended fo
 
 | Model | Description | Download |
 |---|---|---|
-| TumorSynth | Converted TumorSynth model for brain tumor and tissue segmentation | [human_tumorsynth.nz](https://github.com/data-others/unet/releases/download/tumorsynth/human_tumorsynth.nz) |
-| SynthSeg V2 | Converted SynthSeg 2.0 model for brain segmentation | [human_synthseg2.nz](https://github.com/data-others/unet/releases/download/synthseg/human_synthseg2.nz) |
-| SIAM Model 1 | Converted SIAM model | [human_SIAM_model1.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model1.nz) |
-| SIAM Model 2 | Converted SIAM model | [human_SIAM_model2.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model2.nz) |
-| SIAM Model 3 | Converted SIAM model | [human_SIAM_model3.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model3.nz) |
-| U-Net Studio T1w Tissue | Template-based tissue segmentation model for T1w MRI | [human_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T1w.nz) |
-| U-Net Studio T2w Tissue | Template-based tissue segmentation model for T2w MRI | [human_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T2w.nz) |
-| U-Net Studio FLAIR Tissue | Template-based tissue segmentation model for FLAIR MRI | [human_tissue_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_FLAIR.nz) |
-| U-Net Studio T1w Stroke | Template-based stroke segmentation model for T1w MRI | [human_stroke_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke_T1w.nz) |
-| U-Net Studio T1w Tumor | Template-based tumor segmentation model for T1w MRI | [human_tumor_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_T1w.nz) |
-| U-Net Studio T1w-gd Tumor | Template-based tumor segmentation model for contrast-enhanced T1w MRI | [human_tumor_gad_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_gad_T1w.nz) |
-| U-Net Studio FLAIR Tumor | Template-based tumor segmentation model for FLAIR MRI | [human_tumor_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_FLAIR.nz) |
+| TumorSynth (20.7MB)  | Converted TumorSynth model for brain tumor and tissue segmentation | [human_tumorsynth.nz](https://github.com/data-others/unet/releases/download/tumorsynth/human_tumorsynth.nz) |
+| SynthSeg V2 (10.5MB) | Converted SynthSeg 2.0 model for brain segmentation | [human_synthseg2.nz](https://github.com/data-others/unet/releases/download/synthseg/human_synthseg2.nz) |
+| SIAM Model 1 (64.1MB) | Converted SIAM model | [human_SIAM_model1.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model1.nz) |
+| SIAM Model 2 (51.8MB) | Converted SIAM model | [human_SIAM_model2.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model2.nz) |
+| SIAM Model 3 (21.5MB) | Converted SIAM model | [human_SIAM_model3.nz](https://github.com/data-others/unet/releases/download/siam/human_SIAM_model3.nz) |
+| GOUHFI (79.6MB) | Converted GOUHFI model | [human_GOUHFI.nz](https://github.com/data-others/unet/releases/download/gouhfi/human_GOUHFI.nz) |
+| U-Net Studio T1w Tissue (1.2MB) | Template-based tissue segmentation model for T1w MRI | [human_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T1w.nz) |
+| U-Net Studio T2w Tissue (1.2MB) | Template-based tissue segmentation model for T2w MRI | [human_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T2w.nz) |
+| U-Net Studio FLAIR Tissue (1.3MB) | Template-based tissue segmentation model for FLAIR MRI | [human_tissue_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_FLAIR.nz) |
+| U-Net Studio T1w Stroke (1.2MB) | Template-based stroke segmentation model for T1w MRI | [human_stroke_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke_T1w.nz) |
+| U-Net Studio T1w Tumor (1.3MB) | Template-based tumor segmentation model for T1w MRI | [human_tumor_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_T1w.nz) |
+| U-Net Studio T1w-gd Tumor (1.3MB) | Template-based tumor segmentation model for contrast-enhanced T1w MRI | [human_tumor_gad_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_gad_T1w.nz) |
+| U-Net Studio FLAIR Tumor (1.3MB) | Template-based tumor segmentation model for FLAIR MRI | [human_tumor_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_FLAIR.nz) |
 
 ### Marmoset
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio T1w Tissue | Template-based marmoset tissue segmentation model for T1w MRI | [marmoset_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T1w.nz) |
-| U-Net Studio T2w Tissue | Template-based marmoset tissue segmentation model for T2w MRI | [marmoset_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T2w.nz) |
+| U-Net Studio T1w Tissue (1.3MB) | Template-based marmoset tissue segmentation model for T1w MRI | [marmoset_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T1w.nz) |
+| U-Net Studio T2w Tissue (1.2MB) | Template-based marmoset tissue segmentation model for T2w MRI | [marmoset_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T2w.nz) |
 
 ### Mouse
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio T2w Tissue | Template-based mouse tissue segmentation model for T2w MRI | [mouse_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue_T2w.nz) |
+| U-Net Studio T2w Tissue (1.3MB) | Template-based mouse tissue segmentation model for T2w MRI | [mouse_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue_T2w.nz) |
 
 ### Rat
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio T2w Tissue | Template-based rat tissue segmentation model for T2w MRI | [rat_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue_T2w.nz) |
+| U-Net Studio T2w Tissue (1.2MB) | Template-based rat tissue segmentation model for T2w MRI | [rat_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue_T2w.nz) |
 
 ## Usage
 
