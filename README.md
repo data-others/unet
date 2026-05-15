@@ -21,5 +21,7 @@ U-Net Studio can output 3D labels or 4D probablistic maps for quantifying tissue
 
 
 1. [TumorSynth](https://github.com/data-others/unet/releases/download/tumor/human_tumorsynth.nz)
-2. [Synthseg V2]()
-3. [SIAM]()
+2. [Synthseg V2](https://github.com/data-others/unet/releases/download/synthseg/human_synthseg2.nz)
+3. [SIAM Model 1]()
+4. [SIAM Model 2]()
+5. [SIAM Model 3]()
