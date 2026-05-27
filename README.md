@@ -68,12 +68,21 @@ The models are provided as is, without warranty of any kind, and are intended fo
 | U-Net Studio T1w-gd Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for contrast-enhanced human T1-weighted MRI. This model is intended for research workflows using gadolinium-enhanced T1w images. | [human_tumor_gad_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_gad_T1w.nz) |
 | U-Net Studio FLAIR Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for human FLAIR MRI. This model is intended for research workflows where tumor-related signal is evaluated on FLAIR images. | [human_tumor_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_FLAIR.nz) |
 
+### Rhesus
+
+| Model | Description | Download |
+|---|---|---|
+| U-Net Studio Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for rhesus. | [rhesus_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/rhesus_tissue.nz) |
+
+
 ### Marmoset
 
 | Model | Description | Download |
 |---|---|---|
 | U-Net Studio T1w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for marmoset T1-weighted MRI. This model supports animal brain segmentation workflows without requiring manual annotation for each new dataset. | [marmoset_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T1w.nz) |
 | U-Net Studio T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for marmoset T2-weighted MRI. This model is intended for marmoset tissue segmentation using T2w contrast. | [marmoset_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T2w.nz) |
+| U-Net Studio Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for marmoset. | [marmoset_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue.nz) |
+
 
 ### Mouse
 
