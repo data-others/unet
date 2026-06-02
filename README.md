@@ -60,41 +60,41 @@ The models are provided as is, without warranty of any kind, and are intended fo
 | SIAM Model 3 (21.5MB) | Converted SIAM Model 3 for full-head tissue segmentation with improved robustness to anatomical abnormalities. The original SIAM Model 3 extends SIAM Model 2 by adding support for anatomical anomalies as an additional label. | [human_SIAM_model3.nz](https://github.com/data-others/unet/releases/download/siam/human_siam_model3.nz) |
 | GOUHFI (79.6MB) | Converted GOUHFI model for brain MRI segmentation. The original GOUHFI toolbox is a contrast-, resolution-, and field-strength-agnostic deep learning tool optimized for ultra-high-field MRI, with support for brain segmentation, cortical parcellation, and volumetric analysis depending on the model version. | [human_GOUHFI.nz](https://github.com/data-others/unet/releases/download/gouhfi/human_gouhfi.nz) |
 | MedNet-PVS T2w (19.7MB) | Converted MedNet-PVS model for automated 3D perivascular space segmentation on T2-weighted brain MRI. The original T2w MedNet-PVS models were designed for white matter PVS segmentation and were trained on HCP Aging T2w MRI data. | [human_mednet_pvs_T2w.nz](https://github.com/data-others/unet/releases/download/mednet/human_mednet_pvs_T2w.nz) |
-| U-Net Studio T1w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for human T1-weighted MRI. This model is intended for lightweight tissue segmentation in DSI Studio and U-Net Studio workflows. | [human_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T1w.nz) |
-| U-Net Studio T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for human T2-weighted MRI. This model is intended for tissue segmentation when T2w contrast is available. | [human_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T2w.nz) |
-| U-Net Studio FLAIR Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for human FLAIR MRI. This model supports tissue segmentation in FLAIR-based workflows. | [human_tissue_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_FLAIR.nz) |
-| U-Net Studio T1w Stroke (1.2MB) | U-Net Studio template-based stroke segmentation model for human T1-weighted MRI. This model is intended for research workflows involving stroke-related lesion segmentation. | [human_stroke_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke_T1w.nz) |
-| U-Net Studio T1w Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for human T1-weighted MRI. This model is intended for research workflows involving tumor segmentation on non-contrast T1w scans. | [human_tumor_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_T1w.nz) |
-| U-Net Studio T1w-gd Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for contrast-enhanced human T1-weighted MRI. This model is intended for research workflows using gadolinium-enhanced T1w images. | [human_tumor_gad_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_gad_T1w.nz) |
-| U-Net Studio FLAIR Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for human FLAIR MRI. This model is intended for research workflows where tumor-related signal is evaluated on FLAIR images. | [human_tumor_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_FLAIR.nz) |
+| U-Net Studio Human T1w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for human T1-weighted MRI. This model is intended for lightweight tissue segmentation in DSI Studio and U-Net Studio workflows. | [human_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T1w.nz) |
+| U-Net Studio Human T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for human T2-weighted MRI. This model is intended for tissue segmentation when T2w contrast is available. | [human_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T2w.nz) |
+| U-Net Studio Human FLAIR Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for human FLAIR MRI. This model supports tissue segmentation in FLAIR-based workflows. | [human_tissue_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_FLAIR.nz) |
+| U-Net Studio Human T1w Stroke (1.2MB) | U-Net Studio template-based stroke segmentation model for human T1-weighted MRI. This model is intended for research workflows involving stroke-related lesion segmentation. | [human_stroke_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke_T1w.nz) |
+| U-Net Studio Human T1w Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for human T1-weighted MRI. This model is intended for research workflows involving tumor segmentation on non-contrast T1w scans. | [human_tumor_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_T1w.nz) |
+| U-Net Studio Human T1w-gd Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for contrast-enhanced human T1-weighted MRI. This model is intended for research workflows using gadolinium-enhanced T1w images. | [human_tumor_gad_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_gad_T1w.nz) |
+| U-Net Studio Human FLAIR Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for human FLAIR MRI. This model is intended for research workflows where tumor-related signal is evaluated on FLAIR images. | [human_tumor_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_FLAIR.nz) |
 
 ### Rhesus
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for rhesus. | [rhesus_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/rhesus_tissue.nz) |
+| U-Net Studio Rhesus Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for rhesus. | [rhesus_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/rhesus_tissue.nz) |
 
 
 ### Marmoset
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio T1w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for marmoset T1-weighted MRI. This model supports animal brain segmentation workflows without requiring manual annotation for each new dataset. | [marmoset_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T1w.nz) |
-| U-Net Studio T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for marmoset T2-weighted MRI. This model is intended for marmoset tissue segmentation using T2w contrast. | [marmoset_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T2w.nz) |
-| U-Net Studio Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for marmoset. | [marmoset_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue.nz) |
+| U-Net Studio Marmoset T1w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for marmoset T1-weighted MRI. This model supports animal brain segmentation workflows without requiring manual annotation for each new dataset. | [marmoset_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T1w.nz) |
+| U-Net Studio Marmoset T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for marmoset T2-weighted MRI. This model is intended for marmoset tissue segmentation using T2w contrast. | [marmoset_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T2w.nz) |
+| U-Net Studio Marmoset Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for marmoset. | [marmoset_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue.nz) |
 
 
 ### Mouse
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio T2w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for mouse T2-weighted MRI. This model is intended for mouse brain tissue segmentation and can be used as a starting point for template-based retraining. | [mouse_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue_T2w.nz) |
+| U-Net Studio Mouse T2w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for mouse T2-weighted MRI. This model is intended for mouse brain tissue segmentation and can be used as a starting point for template-based retraining. | [mouse_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue_T2w.nz) |
 
 ### Rat
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for rat T2-weighted MRI. This model is intended for rat brain tissue segmentation and can be adapted or retrained for related animal MRI datasets. | [rat_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue_T2w.nz) |
+| U-Net Studio Mouse T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for rat T2-weighted MRI. This model is intended for rat brain tissue segmentation and can be adapted or retrained for related animal MRI datasets. | [rat_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue_T2w.nz) |
 
 ## Model Format
 
