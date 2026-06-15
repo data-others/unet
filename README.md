@@ -53,7 +53,6 @@ The models are provided as is, without warranty of any kind, and are intended fo
 
 | Model | Description | Download |
 |---|---|---|
-| TumorSynth (20.7MB) | Converted TumorSynth model for segmenting healthy brain tissue and tumor in brain MRI scans with tumor. The original TumorSynth tool supports multi-sequence MRI inputs, including T1, contrast-enhanced T1/T1CE, T2, FLAIR, and related contrasts. The `.nz` package provides the converted model weights for use in DSI Studio. | [human_tumorsynth.nz](https://github.com/data-others/unet/releases/download/tumorsynth/human_tumorsynth.nz) |
 | SynthSeg V2 (10.5MB) | Converted SynthSeg 2.0 model for contrast- and resolution-agnostic brain MRI segmentation. The original SynthSeg model was designed to work without retraining across diverse contrasts, resolutions, populations, and preprocessing conditions, including scans with white matter lesions. | [human_synthseg2.nz](https://github.com/data-others/unet/releases/download/synthseg/human_synthseg.nz) |
 | SIAM Model 1 (64.1MB) | Converted SIAM Model 1 for full-head tissue segmentation. The original SIAM Model 1 performs a 39-region segmentation task and may be useful when extra-cerebral labels are needed. | [human_SIAM_model1.nz](https://github.com/data-others/unet/releases/download/siam/human_siam_model1.nz) |
 | SIAM Model 2 (51.8MB) | Converted SIAM Model 2 for full-head tissue segmentation. The original SIAM Model 2 was trained from high-quality templates and targets brain tissue and head-related labels, including tissue, skull, dura, and vessel-related structures. | [human_SIAM_model2.nz](https://github.com/data-others/unet/releases/download/siam/human_siam_model2.nz) |
@@ -63,11 +62,18 @@ The models are provided as is, without warranty of any kind, and are intended fo
 | U-Net Studio Human T1w Tissue Segmentation (1.2MB) | U-Net Studio template-based tissue segmentation model for human T1-weighted MRI. This model is intended for lightweight tissue segmentation in DSI Studio and U-Net Studio workflows. | [human_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T1w.nz) |
 | U-Net Studio Human T2w Tissue Segmentation (1.2MB) | U-Net Studio template-based tissue segmentation model for human T2-weighted MRI. This model is intended for tissue segmentation when T2w contrast is available. | [human_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_T2w.nz) |
 | U-Net Studio Human FLAIR Tissue Segmentation (1.3MB) | U-Net Studio template-based tissue segmentation model for human FLAIR MRI. This model supports tissue segmentation in FLAIR-based workflows. | [human_tissue_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tissue_FLAIR.nz) |
-| U-Net Studio Human T1w Stroke Lesion (1.2MB) | U-Net Studio template-based stroke segmentation model for human T1-weighted MRI. This model is intended for research workflows involving stroke-related lesion segmentation. | [human_stroke_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke_T1w.nz) |
-| U-Net Studio Human Stroke Lesion V2 (13MB) | U-Net Studio template-based stroke segmentation model. This model is intended for research workflows involving stroke-related lesion segmentation. | [human_stroke.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke.nz) |
+
+### Human Diseases
+
+| Model | Description | Download |
+|---|---|---|
+| TumorSynth (20.7MB) | Converted TumorSynth model for segmenting healthy brain tissue and tumor in brain MRI scans with tumor. The original TumorSynth tool supports multi-sequence MRI inputs, including T1, contrast-enhanced T1/T1CE, T2, FLAIR, and related contrasts. The `.nz` package provides the converted model weights for use in DSI Studio. | [human_tumorsynth.nz](https://github.com/data-others/unet/releases/download/tumorsynth/human_tumorsynth.nz) |
+| U-Net Studio Human Tumor Lesion V2 (13MB) | U-Net Studio template-based tumor segmentation model for human MRI (T1w,T2w,FLAIR...etc). This model is intended for research workflows involving tumor segmentation. | [human_tumor.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor.nz) |
 | U-Net Studio Human T1w Tumor Lesion (1.3MB) | U-Net Studio template-based tumor segmentation model for human T1-weighted MRI. This model is intended for research workflows involving tumor segmentation on non-contrast T1w scans. | [human_tumor_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_T1w.nz) |
 | U-Net Studio Human T1w-gd Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for contrast-enhanced human T1-weighted MRI. This model is intended for research workflows using gadolinium-enhanced T1w images. | [human_tumor_gad_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_gad_T1w.nz) |
 | U-Net Studio Human FLAIR Tumor (1.3MB) | U-Net Studio template-based tumor segmentation model for human FLAIR MRI. This model is intended for research workflows where tumor-related signal is evaluated on FLAIR images. | [human_tumor_FLAIR.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_tumor_FLAIR.nz) |
+| U-Net Studio Human Stroke Lesion V2 (13MB) | U-Net Studio template-based stroke segmentation model for human MRI (T1w,T2w,FLAIR...etc). This model is intended for research workflows involving stroke-related lesion segmentation. | [human_stroke.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke.nz) |
+| U-Net Studio Human T1w Stroke Lesion (1.2MB) | U-Net Studio template-based stroke segmentation model for human T1-weighted MRI. This model is intended for research workflows involving stroke-related lesion segmentation. | [human_stroke_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/human_stroke_T1w.nz) |
 
 ### Rhesus
 
@@ -80,17 +86,17 @@ The models are provided as is, without warranty of any kind, and are intended fo
 
 | Model | Description | Download |
 |---|---|---|
+| U-Net Studio Marmoset Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for marmoset MRI (T1w,T2w,FLAIR...etc). | [marmoset_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue.nz) |
 | U-Net Studio Marmoset T1w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for marmoset T1-weighted MRI. This model supports animal brain segmentation workflows without requiring manual annotation for each new dataset. | [marmoset_tissue_T1w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T1w.nz) |
 | U-Net Studio Marmoset T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for marmoset T2-weighted MRI. This model is intended for marmoset tissue segmentation using T2w contrast. | [marmoset_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue_T2w.nz) |
-| U-Net Studio Marmoset Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for marmoset. | [marmoset_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/marmoset_tissue.nz) |
 
 
 ### Mouse
 
 | Model | Description | Download |
 |---|---|---|
+| U-Net Studio Mouse Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for mouse MRI. | [mouse_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue.nz) |
 | U-Net Studio Mouse T2w Tissue (1.3MB) | U-Net Studio template-based tissue segmentation model for mouse T2-weighted MRI. This model is intended for mouse brain tissue segmentation and can be used as a starting point for template-based retraining. | [mouse_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue_T2w.nz) |
-| U-Net Studio Mouse Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for mouse. | [mouse_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/mouse_tissue.nz) |
 
 ### Rat
 
