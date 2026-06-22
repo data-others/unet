@@ -103,7 +103,8 @@ The models are provided as is, without warranty of any kind, and are intended fo
 
 | Model | Description | Download |
 |---|---|---|
-| U-Net Studio Mouse T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for rat T2-weighted MRI. This model is intended for rat brain tissue segmentation and can be adapted or retrained for related animal MRI datasets. | [rat_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue_T2w.nz) |
+| U-Net Studio Rat Tissue V2 (13MB) | U-Net Studio model-agnostic tissue segmentation model for rat MRI. | [rat_tissue.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue.nz) |
+| U-Net Studio Rat T2w Tissue (1.2MB) | U-Net Studio template-based tissue segmentation model for rat T2-weighted MRI. This model is intended for rat brain tissue segmentation and can be adapted or retrained for related animal MRI datasets. | [rat_tissue_T2w.nz](https://github.com/data-others/unet/releases/download/unet-studio/rat_tissue_T2w.nz) |
 
 ## Model Format
 
