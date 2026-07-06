@@ -40,6 +40,7 @@ Converted third-party models include:
 | SIAM | https://github.com/romainVala/SIAM | Apache License 2.0 |
 | GOUHFI | https://github.com/mafortin/GOUHFI | Apache License 2.0 |
 | MedNet-PVS | https://github.com/iBrain-Lab/MedNet-PVS | Apache License 2.0 |
+| MindGlide | https://github.com/MS-PINPOINT/mindGlide | MIT License |
 
 Redistribution of converted models should include the model-specific license notice, the original license text, the DSI Studio License, and attribution to the original project.
 
